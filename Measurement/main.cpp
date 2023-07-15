@@ -11,9 +11,9 @@
 
 using namespace std;
 
-#include "../HyperCalm/lossdelay_bucketized/HyperCalm.h"
-#include "../HyperCalm/lossdelay_basic/HyperCalm_Basic.h"
-#include "../ComparedAlgorithms/groundtruth.h"
+#include "HyperCalm/lossdelay_bucketized/HyperCalm.h"
+#include "HyperCalm/lossdelay_basic/HyperCalm_Basic.h"
+#include "../CPU/ComparedAlgorithms/groundtruth.h"
 
 using namespace groundtruth::type_info;
 

@@ -33,7 +33,7 @@ $ ./periodic_batch_test -f FILENAME -s {1-3} [-t REPEAT_TIME] [-k TOPK] [-l LIMI
 
 4. `-k`: An integer, specifying the top-k threshold. The default value is 200. 
 
-5. `-l`: An integer(1-4), specifying the limit of batch size. The default value is 1.
+5. `-l`: An integer(1-4), specifying the limit of batch size. The default value is 1. This parameter is used to filter small batches in the experiments of finding periodic large batches.
 
 6. `-m`: An integer, specifying the memory size (in bytes) used by the algorithm. The default value is $5 \times 10^5$. 
 
@@ -45,7 +45,7 @@ $ ./periodic_batch_test -f FILENAME -s {1-3} [-t REPEAT_TIME] [-k TOPK] [-l LIMI
 For example, you can run the following command to test the performance of HyperCalm under the default parameter settings. 
 
 ```bash
-./periodic_batch_test -f ../datasets/CAIDA.dat -s 1
+./periodic_batch_test -f ../../datasets/CAIDA.dat -s 1
 ```
 
 
@@ -56,6 +56,6 @@ Our program prints the processing speed, Recall Rate, Average Absolute Error (AA
 
 ## Note
 
-Our code enables 2bit counter in HyperBF by default, if you don't want to enable it, please modify the parameter counterType in HyperCalm/HyperBloomFilter.h to None
+Our code enables 2bit counter in HyperBF by default. If you want to test Bucketized HyperCalm without counter, please set parameter l to 1 and modify the parameter counterType in HyperCalm/HyperBloomFilter.h to None.
 
 

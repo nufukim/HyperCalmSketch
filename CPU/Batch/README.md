@@ -52,7 +52,7 @@ $ ./batch_test -f FILENAME -s {1-4} -c {1-3} [-t REPEAT_TIME] [-k TOPK] [-l LIMI
 For example, you can run the following command to test HyperBF's performance on the "hit_test" test with the default parameter settings. 
 
 ```bash
-./batch_test -f ../datasets/CAIDA.dat -s 1 -c 1
+./batch_test -f ../../datasets/CAIDA.dat -s 1 -c 1
 ```
 
 

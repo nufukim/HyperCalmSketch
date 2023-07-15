@@ -1,4 +1,4 @@
-# Code for Finding Delay and Loss
+# Appliction in Network Measurement
 
 We compare Bucketized HyperCalm with Basic HyperCalm in Finding Delay and Loss. Experimental results show that Bucketized HyperCalm outperforms Basic HyperCalm in terms of both recall rate, percision rate and F1 Score. 
 
@@ -21,9 +21,9 @@ $ ./delay_loss_test -f FILENAME -s {1-2} -c {1-2} [-t REPEAT_TIME] [-k TOPK] [-m
 
 2. `-s`: An integer(1-2), specifying the algorithm you want to test. The corresponding relationship is as follows. 
 
-   | 1               | 2                    |
-   | --------------- | -------------------- |
-   | HYPERCALM_BASIC | HYPERCALM_BUCKETIZED |
+   | 1                | 2                     |
+   | ---------------- | --------------------- |
+   | HYPERCALM_BASIC  | HYPERCALM_BUCKETIZED  |
 
 3. `-c`: An integer(1-2), specifying the type you want to test. The corresponding relationship is as follows. 
 

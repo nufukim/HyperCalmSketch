@@ -30,7 +30,7 @@ $ ./topk_test -f FILENAME -s {1-6} [-t REPEAT_TIME] [-k TOPK] [-m memory] [-u us
 For example, you can run the following command to test the performance of CalmSS under the default parameter settings. 
 
 ```bash
-./topk_test -f ../datasets/CAIDA.dat -s 1
+./topk_test -f ../../datasets/CAIDA.dat -s 1
 ```
 
 ## Output Format
