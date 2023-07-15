@@ -60,7 +60,7 @@ Batch is an important pattern in data streams, which refers to a group of identi
     ```bash
     $ yum install -y gcc tcl
     $ apt update
-    $ sudo apt install redis-server
+    $ apt install redis-server
     ```
 
 - **python3**: We implement some code in python3 and need to install numpy and redis PIL.
