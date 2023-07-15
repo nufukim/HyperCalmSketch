@@ -58,9 +58,9 @@ For example, you can run the following command to test HyperBF's performance on 
 
 ## Output Format
 
-# For size_test:
+# For Size Test:
 Our program prints the Average Absolute Error (AAE) and Average Relative Error (ARE) of the tested algorithm on the target dataset.
-# For hit_test and large_hit_test:
+# For Hit Test and Large Hit Test:
 Our program prints the processing speed, Recall Rate and F1 Score of the tested algorithm on the target dataset. 
 
 ## Note

@@ -9,7 +9,7 @@ You can use the following commands to build and run our tests.
 ```bash
 $ make
 $ ./topk_test -f FILENAME -s {1-6} [-t REPEAT_TIME] [-k TOPK] [-m memory] [-u use_simd]
-```
+```参数
 
 1. `-f`: Path of the dataset you want to run.	
 
@@ -25,7 +25,7 @@ $ ./topk_test -f FILENAME -s {1-6} [-t REPEAT_TIME] [-k TOPK] [-m memory] [-u us
 
 5. `-m`: An integer, specifying the memory size (in bytes) used by the algorithm. The default value is $5 \times 10^5$. 
 
-6. `-u`: An integer, specifying whether to use SIMD. The default value is 0.
+6. `-u`: An integer, specifying whether to use SIMD. The default value is 0. As mentioned in our paper, we use 512-bit SIMD instructions to accelerate the operations of Bucketized CalmSS, and conduct the experiments on a CPU that supports AVX-512 instruction set. We also provide a basic version of Bucketized CalmSS that does not use SIMD instructions. You can decide which version of Bucketized CalmSS to set parameter u to 1.
 
 For example, you can run the following command to test the performance of CalmSS under the default parameter settings. 
 

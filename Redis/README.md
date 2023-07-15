@@ -1,6 +1,6 @@
 # Codes for Redis HyperCalm
 
-We tested the speed of HyperBF, CalmSS, and HyperCalm in redis.
+We implement HyperCalm in Redis database, a popular in-memory data structure store widely used by database, cache, and streaming engine, showing that HyperCalm can be easily integrated into mainstream KV databases
 
 ## How to run
 

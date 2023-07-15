@@ -1,6 +1,6 @@
 # Appliction in Network Measurement
 
-We compare Bucketized HyperCalm with Basic HyperCalm in Finding Delay and Loss. Experimental results show that Bucketized HyperCalm outperforms Basic HyperCalm in terms of both recall rate, percision rate and F1 Score. 
+We evaluate the performance of HyperCalm and Bucketized HyperCalm in performing two network measurement tasks: finding packet drops and finding inflated delays. Experimental results show that our HyperCalm sketch achieves high Recall Rate, Precision Rate in finding network anomalies. In addition, HyperCalm sketch has high accuracy in estimating batch sizes and batch timespans.
 
 ## How to run
 

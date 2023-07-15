@@ -10,7 +10,7 @@ You can use the following command to build the codes.
 $ make [USER_DEFINES=-DSIMD]
 ```
 
-`USER_DEFINES=-DSIMD`:  As mentioned in our paper, we use 512-bit SIMD instructions to accelerate the operations of HyperCalm, and conduct the experiments on a CPU that supports AVX-512 instruction set. We also provide a basic version of HyperCalm that does not use SIMD instructions. You can decide which version of HyperCalm to build by whether or not defining the `SIMD` macro when calling the `make` command.
+`USER_DEFINES=-DSIMD`:  As mentioned in our paper, we use 512-bit SIMD instructions to accelerate the operations of Bucketized HyperCalm, and conduct the experiments on a CPU that supports AVX-512 instruction set. We also provide a basic version of Bucketized HyperCalm that does not use SIMD instructions. You can decide which version of Bucketized HyperCalm to build by whether or not defining the `SIMD` macro when calling the `make` command.
 
 
 
