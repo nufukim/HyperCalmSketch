@@ -8,7 +8,7 @@ Experimental results show that Bucketized HyperCalm well achieves our design goa
 ## File Structure 
 
 - `HyperCalm`: Source codes for the HyperCalm sketch, including HyperBF, Basic CalmSS, Bucketized CalmSS. 
-- `ComparedAlgorithms`: Source codes for the related algorithms in our paper, including Time-Out Bloom filter (TOBF), Clock-Sketch, SWAMP, Space-Saving (SS), Unbiased Space-Saving (USS), Cold-Filter + SS (CF+SS). 
+- `ComparedAlgorithms`: Source codes for the related algorithms in our paper, including Time-Out Bloom filter (TOBF), Clock-Sketch, SWAMP, Space-Saving (SS), Unbiased Space-Saving (USS), Cold-Filter + Space-Saving (CF+SS). 
 - `Batch`: Source codes for detecting item batches. 
 - `PeriodicBatch`: Source codes for finding top-k periodic batches.  
 - `TopK`: Source codes for finding top-k items.

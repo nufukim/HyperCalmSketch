@@ -12,7 +12,7 @@ Batch is an important pattern in data streams, which refers to a group of identi
 
 - `CPU` contains codes of HyperCalm and the related algorithms implemented on CPU platforms:
   - `HyperCalm`: Source codes for the HyperCalm sketch, including HyperBF, Basic CalmSS, Bucketized CalmSS. 
-  - `ComparedAlgorithms`: Source codes for the related algorithms in our paper, including Time-Out Bloom filter (TOBF), Clock-Sketch, SWAMP, Space-Saving (SS), Unbiased Space-Saving (USS), Cold-Filter + SS (CF+SS). 
+  - `ComparedAlgorithms`: Source codes for the related algorithms in our paper, including Time-Out Bloom filter (TOBF), Clock-Sketch, SWAMP, Space-Saving (SS), Unbiased Space-Saving (USS), Cold-Filter + Space-Saving (CF+SS). 
   - `Batch`: Source codes for detecting item batches. 
   - `PeriodicBatch`: Source codes for finding top-k periodic batches.  
   - `TopK`: Source codes for finding top-k items.

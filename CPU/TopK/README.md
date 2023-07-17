@@ -1,6 +1,6 @@
 # Codes for Finding Top-k Items
 
-We compare Bucketized CalmSS with Bucketized SS, Basic CalmSS, Space-Saving (SS) Unbiased Space-Saving (USS) and Cold-Filter+SS (CF+SS). Experimental results show that Bucketized CalmSS outperforms the other algorithms in terms of both accuracy and processing speed. 
+We compare Bucketized CalmSS with Bucketized SS, Basic CalmSS, Space-Saving (SS) Unbiased Space-Saving (USS) and Cold-Filter+Space-Saving (CF+SS). Experimental results show that Bucketized CalmSS outperforms the other algorithms in terms of both accuracy and processing speed. 
 
 ## How to run
 
