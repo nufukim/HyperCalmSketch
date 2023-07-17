@@ -19,9 +19,9 @@ static void printName(int sketchName, int checkName) {
         printf("Test SWAMP\n");
     };
     if (checkName == 1) {
-        printf("Test First Hit\n");
-    } else if (checkName == 2) {
         printf("Test Accuracy of Size\n");
+    } else if (checkName == 2) {
+        printf("Test First Hit\n");
     } else if (checkName == 3) {
         printf("Test Large Hit\n");
     }
