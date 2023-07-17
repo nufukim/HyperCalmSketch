@@ -11,8 +11,6 @@ $ make
 $ ./topk_test -f FILENAME -s {1-6} [-t REPEAT_TIME] [-k TOPK] [-m memory] [-u use_simd]
 ```
 
-参数
-
 1. `-f`: Path of the dataset you want to run.	
 
 2. `-s`: An integer(1-6), specifying the algorithm you want to test. The corresponding relationship is as follows. 
