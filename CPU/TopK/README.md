@@ -9,7 +9,9 @@ You can use the following commands to build and run our tests.
 ```bash
 $ make
 $ ./topk_test -f FILENAME -s {1-6} [-t REPEAT_TIME] [-k TOPK] [-m memory] [-u use_simd]
-```参数
+```
+
+参数
 
 1. `-f`: Path of the dataset you want to run.	
 
