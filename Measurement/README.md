@@ -45,7 +45,7 @@ $ ./delay_loss_test -f FILENAME -s {1-2} -c {1-2} [-t REPEAT_TIME] [-k TOPK] [-m
 For example, you can run the following command to test the performance of HyperCalm under the default parameter settings. 
 
 ```bash
-./delay_loss_test -f ../datasets/CAIDA.dat -s 1
+./delay_loss_test -f ../datasets/CAIDA.dat -s 1 -c 1
 ```
 
 
